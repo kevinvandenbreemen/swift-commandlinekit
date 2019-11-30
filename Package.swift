@@ -42,9 +42,6 @@ import PackageDescription
 
 let package = Package(
   name: "CommandLineKit",
-  platforms: [
-    .macOS(.v10_12)
-  ],
   products: [
     .library(name: "CommandLineKit", targets: ["CommandLineKit"]),
     .executable(name: "CommandLineKitDemo", targets: ["CommandLineKitDemo"])
